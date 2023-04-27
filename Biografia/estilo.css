@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header>h1{
+    color: rgb(255, 119, 0);
+    text-align: center;
+    font-size: 350%;
+}
+
+
+/*############### Modifico el Índice ##############*/
+fieldset>h2{
+    font-size: 150%;
+    color: rgb(255, 149, 56);
+    margin-top: 0%;
+}
+
+fieldset>ul{
+    width: 200px;
+    height: 80px;
+    border-radius:10px 10px 10px 10px;
+    background:#353535;
+    color: rgb(147, 69, 0);
+}
+fieldset>ul>li>a{
+    color: rgb(255, 229, 127);
+    text-decoration: none;
+}
+
+fieldset{
+    width: 200px;
+    height: 130px;
+    border-radius:20px 20px 20px 20px;
+}
+/*#################################################*/
+
+
+/*############## Modifico las Imágenes ############*/
+.ImagenCentrada{
+    text-align: center;
+}
+
+.Tamañoimagen200{
+    height: 200px;
+}
+
+.Tamañoimagen250{
+    height: 250px;
+}
+
+.Tamañoimagen300{
+    height: 300px;
+}
+
+.Tamañoimagenfinal{
+    width: 100%;
+}
+/*#################################################*/
+
+
+/*############### Modifico el Texto ###############*/
+.TextoCentrado{
+    text-align: center;
+}
+
+.TextoJustificado{
+    text-align: justify;
+}
+
+.TextoUbicación{
+    /*##############  COMPLETAR  ##############*/flex-wrap: initial;
+    flex-direction: initial;
+}
+
+.Títulos{
+    color: rgb(255, 160, 77);
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+.Sub-Títulos{
+    font-size: 125%;
+    color: rgb(249, 161, 93);
+}
+/*#################################################*/
+
+/*PENDIENTE DE TERMINARRRRR*/
+footer{
+    background-image: url(https://cdn.eventfinda.co.nz/uploads/content/transformed/1014776-4561-34.jpg);
+    height: 336px;
+    width: 100%;
+}
