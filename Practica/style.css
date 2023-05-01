@@ -1,0 +1,57 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    border: 5px dotted violet;
+    text-align: center;
+}
+
+#titulo{
+    text-decoration: underline;
+    color: brown;
+    font-size: 60px;
+}
+
+fieldset{
+    border: 5px solid black;
+    width: 90%;
+}
+
+fieldset>section>article>img{
+    width: 360px;
+}
+
+nav{
+    background-color: aqua;
+    text-align: right;
+}
+
+legend{
+    font-size: large;
+}
+
+fieldset>section>article>a:hover{
+    color: chartreuse;
+    background: black;
+    font-size: x-large;
+}
+/*#################### Clases ##################*/
+.linkslindos{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    text-align: center;
+}
+
+.textocentrado{
+    text-align: center;
+}
+
+.textorojo{
+    color: tomato;
+}
+
+.tamañoimagenes{
+    height: 200px;
+}
