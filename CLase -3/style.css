@@ -14,6 +14,13 @@ header{
     font-size: 60px;
 }
 
+nav{
+    background-color: rgb(255, 200, 0);
+    text-align: right;
+    color: blueviolet;
+}
+
+/*#################### Secciones dentro del Fieldset ##################*/
 fieldset{
     border: 5px solid rgb(8, 238, 50);
     width: 90%;
@@ -21,12 +28,6 @@ fieldset{
 
 fieldset>section>article>img{
     width: 360px;
-}
-
-nav{
-    background-color: rgb(255, 200, 0);
-    text-align: right;
-    color: blueviolet;
 }
 
 legend{
@@ -38,6 +39,27 @@ fieldset>section>article>a:hover{
     background: black;
     font-size: x-large;
 }
+/*#####################################################################*/
+
+
+/*##################### Listas ###################*/
+#Menu{
+    border: 5px solid rgb(16, 118, 14);
+    width: 40%;
+}
+
+#Menu:hover{
+    font-size: xx-large;
+}
+aside>fieldset>ul{
+    margin-left: 6%;
+}
+aside>fieldset>ul>li{
+    margin-left: 9%;
+}
+/*################################################*/
+
+
 /*#################### Clases ##################*/
 .linkslindos{
     color: rgb(255, 0, 0);
@@ -56,3 +78,4 @@ fieldset>section>article>a:hover{
 .tamañoimagenes{
     height: 200px;
 }
+/*##############################################*/
