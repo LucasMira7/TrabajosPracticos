@@ -4,18 +4,18 @@
 }
 
 header{
-    border: 5px dotted violet;
+    border: 10px dotted rgb(255, 149, 0);
     text-align: center;
 }
 
 #titulo{
     text-decoration: underline;
-    color: brown;
+    color: rgb(243, 27, 27);
     font-size: 60px;
 }
 
 fieldset{
-    border: 5px solid black;
+    border: 5px solid rgb(8, 238, 50);
     width: 90%;
 }
 
@@ -24,8 +24,9 @@ fieldset>section>article>img{
 }
 
 nav{
-    background-color: aqua;
+    background-color: rgb(255, 200, 0);
     text-align: right;
+    color: blueviolet;
 }
 
 legend{
