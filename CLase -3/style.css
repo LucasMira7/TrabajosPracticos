@@ -42,18 +42,25 @@ fieldset>section>article>a:hover{
 /*#####################################################################*/
 
 
-/*##################### Listas ###################*/
+/*##################### Menú ###################*/
 #Menu{
     border: 5px solid rgb(16, 118, 14);
-    width: 40%;
+    width: 15%;
 }
 
 #Menu:hover{
     font-size: xx-large;
+    width: 30%;
 }
+
+#Menu>h1{
+    text-decoration: underline dotted;
+}
+
 aside>fieldset>ul{
     margin-left: 6%;
 }
+
 aside>fieldset>ul>li{
     margin-left: 9%;
 }
@@ -77,5 +84,12 @@ aside>fieldset>ul>li{
 
 .tamañoimagenes{
     height: 200px;
+}
+/*##############################################*/
+
+
+/*#################### Clases ##################*/
+footer{
+    border: 5px solid red;
 }
 /*##############################################*/
