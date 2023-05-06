@@ -11,13 +11,13 @@ header>h1{
 
 
 /*############### Modifico el Índice ##############*/
-fieldset{
+nav>fieldset{
     width: 200px;
     height: 130px;
     border-radius:0px 20px 20px 20px;
 }
 
-fieldset>h2{
+nav>fieldset>h2{
     font-size: 150%;
     color: rgb(255, 149, 56);
 }
@@ -26,14 +26,14 @@ ul{
     list-style-position: inside;
 }
 
-fieldset>ul{
+nav>fieldset>ul{
     margin-left: 5%;
     padding-left: 5%;
     border-radius:10px 10px 10px 10px;
     background:#353535;
     color: rgb(147, 69, 0);
 }
-fieldset>ul>li>a{
+nav>fieldset>ul>li>a{
     color: rgb(255, 229, 127);
     text-decoration: none;
 }
@@ -74,9 +74,13 @@ fieldset>ul>li>a{
     text-align: justify;
 }
 
-.TextoUbicación{
-    /*##############  COMPLETAR  ##############*/flex-wrap: initial;
-    flex-direction: initial;
+.LinksDeRedes{
+    color:#86542a;
+}
+
+#Redes{
+    color: rgb(255, 123, 0);
+    font-weight: bold; /*con este comando coloco "Negrita" en el texto*/
 }
 
 .Títulos{
@@ -92,10 +96,17 @@ fieldset>ul>li>a{
 /*#################################################*/
 
 
-/*PENDIENTE DE TERMINARRRRR*/
+/*################## Footer ###################*/
 footer{
     background-image: url(https://cdn.eventfinda.co.nz/uploads/content/transformed/1014776-4561-34.jpg);
-    background-size: auto;
-    /*height: 336px;*/
-    width: 100%;
+    background-size: auto; /*con este comando le doy tamaño al fondo*/
+    height: 336px;
+}
+
+footer>fieldset{
+    background-color: #eac9ad;
+    width: 200px;
+    height: 130px;
+    border-radius:20px 20px 20px 20px;
+    text-align: center;
 }
