@@ -95,6 +95,7 @@ fieldset>ul>li>a{
 /*PENDIENTE DE TERMINARRRRR*/
 footer{
     background-image: url(https://cdn.eventfinda.co.nz/uploads/content/transformed/1014776-4561-34.jpg);
+    background-size: auto;
     /*height: 336px;*/
     width: 100%;
 }
