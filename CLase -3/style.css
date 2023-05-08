@@ -6,6 +6,11 @@
 header{
     border: 10px dotted rgb(255, 149, 0);
     text-align: center;
+    top: 0;
+    background-color: white;
+    background-clip: padding-box; /*comando para que el fondo abarque solo hasta el límite con el borde*/
+    border-radius: 50px;
+    position: sticky; /*comando para que el elemento se desplaze cuando scrolleamos en la pagina (requiere de un "top: 0 ")*/
 }
 
 #titulo{
