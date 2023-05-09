@@ -99,7 +99,8 @@ nav>fieldset>ul>li>a{
 /*################## Footer ###################*/
 footer{
     background-image: url(https://cdn.eventfinda.co.nz/uploads/content/transformed/1014776-4561-34.jpg);
-    background-size: auto; /*con este comando le doy tamaño al fondo*/
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 336px;
 }
 
