@@ -1,0 +1,15 @@
+header{
+    text-align: end;
+}
+header>a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*############  Modifico el carousel  ##################*/
+#carouselExampleAutoplaying{
+    width: 500px;
+}
+
+
+/*#######################################################*/

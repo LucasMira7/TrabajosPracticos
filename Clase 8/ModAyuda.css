@@ -1,0 +1,15 @@
+a{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 100px;
+    /*#### Margenes ####*/
+    border: solid 5px;
+    margin-left: 32.3%;
+    margin-right: 32.3%;
+    margin-top: 1%;
+}
+
+a:hover{
+    opacity: 50%;
+}
