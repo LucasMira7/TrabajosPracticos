@@ -8,8 +8,12 @@ header>a{
 }
 /*############  Modifico el carousel  ##################*/
 #carouselExampleAutoplaying{
-    width: 500px;
+    width: 1000px;
+    height: 600px;
 }
 
-
+.tamaño-imagen{
+    width: 500px;
+    border-radius: 10%;
+}
 /*#######################################################*/
