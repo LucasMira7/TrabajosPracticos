@@ -1,13 +1,16 @@
-a{
+div{
     display: flex;
     justify-content: center;
+    
+}
+button{
+    width: max-content;
+    border-width: 4px;
+}
+
+a{
     color: black;
-    font-size: 100px;
-    /*#### Margenes ####*/
-    border: solid 5px;
-    margin-left: 32.3%;
-    margin-right: 32.3%;
-    margin-top: 1%;
+    font-size: 136px;
 }
 
 a:hover{
