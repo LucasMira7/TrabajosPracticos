@@ -2,7 +2,9 @@
     padding: 0%;
     margin: 0%;
 }
-
+body{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
 header{
     border: 10px dotted rgb(255, 149, 0);
     text-align: center;
